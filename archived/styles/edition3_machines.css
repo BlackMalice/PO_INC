@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+/*@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;500&display=swap');*/
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;500&display=swap');
+
+.navbar{
+   
+    background-color: rgba(21, 21, 21, 0.80);
+    box-shadow: 1px 30px 50px gray;
+   
+    
+}
+.num{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+color: white;
+}
+.top-menu__link{
+    color: white;
+}
+.footer-links{
+    color: white;
+}
+.top-menu__link:visited{
+    color:white
+}
+.footer-links:visited{
+    color:white;
+}
+body {
+    width:auto;
+    margin: 0;
+}
+
+.navbar{
+    position: absolute;
+    top: 0;
+    z-index: 1000;
+    
+    
+  
+    padding: 31px 0 33px;
+    border-bottom: 1px solid rgba(21, 21, 21, 1);
+   width: 100%;
+}
+
+.top-menu__item{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: inline-block;
+}
+.top-menu__link{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+text-decoration: none;
+padding: 7px, 15px, 7px, 15px;
+margin: 0 27px;
+
+}
+.top-menu__link:hover,.top-menu__link:focus,span.top-menu__link{
+    color: white;
+    border-bottom: 2px solid rgba(231, 83, 20, 1)
+}
+.logo{
+    display: inline-block;
+    position: relative;
+}
+.row {
+    display: flex;
+    justify-content: space-between;
+
+}
+.contacts{
+    list-style-type: none;
+    
+    margin: auto;
+}
+.hq{
+    color: rgba(231, 83, 20, 1);
+   position: absolute;
+   left: 68px;
+   
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 500;
+font-size: 9px;
+line-height: 11px;
+   
+
+}
+.card{
+    display: flex;
+justify-content: space-between;
+width: 550px;
+box-shadow: 0 0 0 1px gray;
+}
+.content{
+    
+    width: 1280px;
+    margin: 150px auto;
+  }
+  img{
+      width: 268px;
+      height: 218px;
+      margin-right: 10px;
+  }
+ul{
+    list-style-type: none;
+}
+.footer-links span{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 160%;
+}
+
+.grid-container
+{
+    display: flex;
+justify-content: space-around;
+}
+h2{
+    font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 23px;
+margin-left: 550px;
+}
+.footer{
+    background-color:  rgba(30, 34, 45, 1);
+    display: flex;
+    justify-content: space-between;
+}
+.footer-text1{
+    font-family: 'Raleway';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 18px;
+width: 265px;
+color: white;
+margin-left: 50px;
+}
+.footer-text2{
+    
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 18px;
+width: 266px;
+color: white;
+margin-bottom: 100px;
+margin-top: 30px;
+margin-left: 50px;
+}
+.copyright{
+    font-family: 'Raleway';
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 160%;
+color:  rgba(231, 83, 20, 1);
+margin-left: 50px;
+
+}
+.footer-lists{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    margin-left: 150px;
+    
+
+}
+.footer-column1{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: inline-block;
+    color: white;
+    padding-right: 120px;
+
+}
+.footer-column1 li{
+    width: 150px;
+}
+.footer-column2{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: inline-block;
+    color: white;
+    padding-right: 120px;
+    
+}
+.footer-column3{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: inline-block;
+    color: white;
+    
+}
+.footer-links{
+    text-decoration: none;
+    font-family: 'Raleway';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+text-align: center;
+
+
+}
+.footer-links:hover, .footer-links:active,.footer-links:focus{
+    color: white;
+    border-bottom: 2px solid rgba(231, 83, 20, 1)
+}
+.footer-links:visited{
+    color: white;
+}
+html,body{
+    height: 100%;
+}
+.footer-bold{
+    font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 160%;
+margin-bottom: 0;
+}
+.card li {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 10px 0;
+    
+}
+.grid-container ul{
+    margin: 0;
+}
+.card{
+    margin: 10px 0;
+}

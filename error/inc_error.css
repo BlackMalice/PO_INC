@@ -1,0 +1,59 @@
+@import url(https://tinyurl.com/ybc8tm5o);
+@import url(https://tinyurl.com/y9ek2awo);
+@import url(https://tinyurl.com/ycdgtcef);
+@import url(https://tinyurl.com/ybuqovun);
+@import url(https://tinyurl.com/yapa5uq5);
+body{
+    margin: 0;
+}
+.content{
+    width: 1280px;
+    margin: 0 auto;
+    
+}
+.content img{
+    width: 1280px;
+    height: 1280px;
+}
+.content p{
+    font-family: 'Raleway';
+font-style: normal;
+font-weight: 800;
+font-size: 35px;
+line-height: 41px;
+text-align: center;
+
+color: #7B838F;
+}
+.background{
+    background: #000924;
+}
+.background .content{
+    padding-top: 25px;
+}
+.background  .content p{
+    color: white;
+    margin: 0;
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 150%;
+text-align: left;
+
+/* or 22px */
+
+color: #FFFFFF;
+
+
+}
+.background span{
+    color: cyan;
+    margin: 0;
+    font-family: 'Raleway';
+font-style: normal;
+font-weight: 400;
+font-size: 19px;
+line-height: 22.5px;
+margin-left: 950px;
+}
