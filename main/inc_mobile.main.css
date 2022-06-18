@@ -1,0 +1,38 @@
+@import url(https://tinyurl.com/ybc8tm5o);
+@import url(https://tinyurl.com/y9ek2awo);
+@import url(https://tinyurl.com/ycdgtcef);
+@import url(https://tinyurl.com/ybuqovun);
+@import url(https://tinyurl.com/yapa5uq5); 
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+     
+}
+.text__mobile1{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 0%;
+}
+.text__mobile2{
+    font-family: 'Raleway';
+font-style: normal;
+font-weight: 500;
+font-size: 11px;
+line-height: 0%;
+
+/* identical to box height, or 0px */
+letter-spacing: 0.24em;
+
+color: rgba(255, 255, 255, 0.65);
+
+}
